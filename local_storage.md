@@ -83,7 +83,7 @@ constructor() {
 
 Wait! Wait! why `JSON.parse`? the answer is simple.  
 As described earlier in this tutorial, local storage stores data in a form of key-value, that means that the values are stored as **strings**.  
-So, if we want to have a real object to deal with, we must parse the strign into a valid object.
+So, if we want to have a real object to deal with, we must parse the string into a valid object.
 
 Now lets start doing some real stuff, but first we will declare all the public methods we want to expose in this service, which are **get, post, put**, and **destroy**.  
 Our service should now look similiar to:
